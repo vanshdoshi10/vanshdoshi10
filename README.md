@@ -241,14 +241,7 @@ jobs:
 
 ---
 
-## 📌 Current Focus
 
-```text
-🤖  Biometric AI  ──────────────────── [████████░░░░░░] 60%  Evaluation phase
-♟️   Chess App     ──────────────────── [████████████░░] 85%  Firebase wired up
-📊  Data viz      ──────────────────── [██████░░░░░░░░] 45%  Expanding datasets
-🏏  IPL Website   ──────────────────── [████████████░░] 85%  Live frontend
-```
 
 ---
 
