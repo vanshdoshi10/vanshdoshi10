@@ -202,46 +202,7 @@ Tableau HR dashboard covering employee demographics, turnover analysis, departme
   <img alt="Contribution Snake" src="https://raw.githubusercontent.com/vanshdoshi10/vanshdoshi10/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
-> *To enable the snake animation, add the GitHub Action below to `.github/workflows/snake.yml` in your profile repo.*
-
 </div>
-
-<details>
-<summary>🔧 Snake Animation Setup (click to expand)</summary>
-
-Create `.github/workflows/snake.yml` in your `vanshdoshi10/vanshdoshi10` repo:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
-
----
-
-
 
 ---
 
